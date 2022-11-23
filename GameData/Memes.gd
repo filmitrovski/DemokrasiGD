@@ -21,6 +21,18 @@ export (Dictionary) var memes = {
 			"LITTERING_BAD",
 		],
 	},
+	"LITTERING_BAD": {
+		"content": "Allowing for even one banana peel on the streets is allowing for thousands. How many lives inconvenienced could that cost?",
+		"contradictory": [
+			"LITTERING_GOOD",
+		]
+	},
+	"PARKS_BAD": {
+		"content": "People who were born and grew up in dry climates live here. Isn't it a bit insensitive to flaunt our lush greenery in front of them?",
+		"contradictory": [
+			
+		],
+	}
 }
 
 # No particular thoughts

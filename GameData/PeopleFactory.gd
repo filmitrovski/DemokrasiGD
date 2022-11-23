@@ -3,23 +3,28 @@ extends Node
 var names = ["Gonad","Terre","Flink","Masmod","Ferri","Blend","Gimel",
 	"Perro","Fonk","Terrard","Jimni","Tedward",'Cobble','Trez','Nilly','Terrard',
 	'Fammey','Zord','Henkle','Robar','Dinny','Herk','Derdy','Jank','Rikird',
-	'Perd','Millarg','Sleeve','Dichael','Grent','Borrard','Gelly','Sink','Fomd',
+	'Perd','Millarg','Sleeve','Dichael','Grent','Borrard','Gelly','Sink','Fond',
 	'Gemp','Winny','Sigerd','Zein','Prolop','Forkar','Qaid','Sassa','Fig','Cherp',
 	'Darrin','Siebed','Yank','Jommer','Fark','Denker','Yu','Estor','Eran','Gopper',
-	'Didder','Fork','Grent'
+	'Didder','Fork','Grent', 'Feeny'
 ]
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	randomize()
 	var people = get_parent().get_node("People")
+	
 	var memeData = Memes.new()
+	var memeKeys = memeData.memes.keys()
+	var memeSize = memeKeys.size()
 	
 	for n in 9:
 		var person = Person.new()
 		person.personName = generateName()
+		
+		print(memeKeys[randi() % memeSize])
 		# Change this to allow for more memes
-		var memeKeys = memeData.memes.keys()
-		person.memes[memeKeys[randi() % memeData.memes.size()]] = 1
+		#person.memes[memeKeys[randi() % memeSize]] = 1
 		
 		people.add_child(person)
 		
