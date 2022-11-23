@@ -2272,7 +2272,7 @@
 161/shapes = [  ]
 161/z_index = 0
 
-[node name="16x6_flat_block" type="TileMap"]
+[node name="6x16_flat_block" type="TileMap"]
 tile_set = SubResource( 1 )
 cell_size = Vector2( 8, 8 )
 format = 1
