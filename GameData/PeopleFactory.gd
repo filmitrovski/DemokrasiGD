@@ -9,6 +9,11 @@ var names = ["Gonad","Terre","Flink","Masmod","Ferri","Blend","Gimel",
 	'Didder','Fork','Grent', 'Feeny'
 ]
 
+var spawnPoints = [
+	Vector2(100, 200),
+	Vector2(200, 200),
+]
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	randomize()
@@ -17,15 +22,14 @@ func _ready():
 	var memeData = Memes.new()
 	var memeKeys = memeData.memes.keys()
 	var memeSize = memeKeys.size()
+	var personMemes:Dictionary
 	
-	for n in 9:
-		var person = Person.new()
-		person.personName = generateName()
+	for n in 3:
+		personMemes = {}
+		for i in 2:
+			personMemes[memeKeys[randi() % memeSize]] = 1
 		
-		print(memeKeys[randi() % memeSize])
-		# Change this to allow for more memes
-		#person.memes[memeKeys[randi() % memeSize]] = 1
-		
+		var person = Person.new(generateName(), personMemes, spawnPoints[randi() % spawnPoints.size()])
 		people.add_child(person)
 		
 func generateName():
