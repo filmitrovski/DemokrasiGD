@@ -10,9 +10,23 @@ var names = ["Gonad","Terre","Flink","Masmod","Ferri","Blend","Gimel",
 ]
 
 var spawnPoints = [
-	Vector2(100, 200),
-	Vector2(200, 200),
+	Vector2(536, 536),
+	Vector2(536+8, 536+8),
+	Vector2(536+16, 536+16),
+	Vector2(536+16+8, 536+16+8),
+	Vector2(536+32, 536+32),
+	Vector2(536+32+8, 536+32+8),
+	Vector2(536+32+16, 536+32+16),
+	Vector2(536+32+16+8, 536+32+16+8),
+	Vector2(536+64, 536+64),
+	Vector2(536+64+8, 536+64+8),
+	Vector2(536+64+16, 536+64+16),
+	Vector2(536+64+16+8, 536+64+16+8),
+	Vector2(536+64+32, 536+64+32),
+	Vector2(536+64+32, 536+64+32),
 ]
+
+var personScene = preload("res://GameData/Person.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -29,7 +43,8 @@ func _ready():
 		for i in 2:
 			personMemes[memeKeys[randi() % memeSize]] = 1
 		
-		var person = Person.new(generateName(), personMemes, spawnPoints[randi() % spawnPoints.size()])
+		var person = personScene.instance()
+		person.deliver(generateName(), personMemes, spawnPoints[randi() % spawnPoints.size()])
 		people.add_child(person)
 		
 func generateName():

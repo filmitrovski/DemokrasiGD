@@ -32,6 +32,12 @@ export (Dictionary) var memes = {
 		"contradictory": [
 			
 		],
+	},
+	"EDU_BAD": {
+		"content": "My grandfather was illiterate, my father was illiterate, I am illiterate, and I'll be damned if I let any child of mine break that tradition",
+		"contradictory": [
+			
+		],
 	}
 }
 
