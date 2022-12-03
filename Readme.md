@@ -6,6 +6,10 @@ As video games mature as a medium, and an ever-increasing differentiation in gen
 
 ## Introduction
 
+???
+
+## Game Mechanics
+
 Game mechanics are the rules, processes, and data that make up a game. They define how a game is played and the conditions to end the game in victory or defeat. We'll briefly explore five types of game mechanics and their role in several game genres.
 
 ### Physics
@@ -23,9 +27,22 @@ The internal economy mechanics define how game elements are transacted within th
 
 Converters and Drains are typically tied up with Taps with positive and negative feedback loops respectively.
 
-Typically, game economies are designed as a five-component system
+### Progression mechanics
+
+Progression mechanics include elements such as level design, mission objectives, and granting or denying the player access to different parts of the game world.
+
+### Tactical maneuvering
+
+Tactical maneuvering mechanics deal with the placement of units within the game world with the goal of gaining offensive or defensive advantage. This is the core mechanic in most strategy games, and can be relevant in role-playing games, sport, and simulation games as well. Some games may restrict the set of possible positions to a grid, such as the case with Chess, Go, and the Civilization series.
+
+### Social interaction
+
+Social interaction mechanics involve the governing of interactions between players within the game. These may include mechanics of forming and breaking alliances, trading between players, governing the play-acting in role-playing games, and even such elements as giving gifts and inviting friends to join.
+
+Games can be categorized into genres based on the type of gameplay. Since gameplay is generated from the mechanics the game implements, it follows that the genre will have a significant impact on what type of mechanics are implemented in the game and to what extent. Image 1.1 shows some common game genres and how they relate to the types of mechanics they implement. The thickness of the outlines indicates relative importance of the type of mechanics to games in that genre. Items outlined with a thick black line can be considered to be a core mechanic.
 
 !["Game Mechanics and Game Genres"](/DocImg/mechanicsandgenres.png)
+Image 1.1 - Game Mechanics and Game Genres
 
 [Something about smols not being contentful]
 
