@@ -17,10 +17,16 @@ func deliver(_personName:String, _memes:Dictionary, _spawnAt:Vector2):
 	
 # Called when the node enters the scene tree for the first time.
 func _ready():	
-	print(personName + " was born")
-	print("They believe in...")
-	print(memes)
+	$PersonNameLabel.text = personName
 
 func _input_event(_viewport, event, _shape_idx):
 	if(event.is_action_pressed("mouse_click")):
 		print(personName)
+
+
+func _on_Person_mouse_entered():
+	$PersonNameLabel.visible = true
+
+
+func _on_Person_mouse_exited():
+	$PersonNameLabel.visible = false
