@@ -41,10 +41,9 @@ Social interaction mechanics involve the governing of interactions between playe
 
 Games can be categorized into genres based on the type of gameplay. Since gameplay is generated from the mechanics the game implements, it follows that the genre will have a significant impact on what type of mechanics are implemented in the game and to what extent. Image 1.1 shows some common game genres and how they relate to the types of mechanics they implement. The thickness of the outlines indicates relative importance of the type of mechanics to games in that genre. Items outlined with a thick black line can be considered to be a core mechanic.
 
-!["Game Mechanics and Game Genres"](/DocImg/mechanicsandgenres.png)
-Image 1.1 - Game Mechanics and Game Genres
-
-[Something about smols not being contentful]
+| !["Game Mechanics and Game Genres"](/DocImg/mechanicsandgenres.png) |
+| :---: |
+| Image 1.1 - Game Mechanics and Game Genres |
 
 ## Games of emergence and games of progression
 
@@ -52,13 +51,29 @@ Games that rely mostly on either emergence or progression can be thought of as g
 
 Visual novels may be taken as an example of pure games of progression, where every possible state of the game has been scripted and accounted for by the developers, while chess, with its practically uncountable unique playthroughs would be the poster child for pure games of emergence.
 
+[more text needed here]
+
 ## Challenges
+
+Designing games around emergent gameplay comes with its own unique challenges. Unlike with the more straightforward approach of designing levels, scripted challenges, and storylines, when building systems for emergent gameplay it may be difficult to fully predict every interaction between the systems, track the progress made in development, or even evaluate whether the design will work at all. 
+
+No concrete and reliable solution for constructing emergence exists as of yet, 
 
 [Paragraph from Sellers' Constructing Emergence]
 
-[The witcher cow spawn]
-[Dwarf fortress drunk cats]
-[Victoria machine tools]
+The unpredictable nature of complex systems has the potential to completely break an already fully developed and released game, or at least provide advantageous exploits to enterprising players. We'll look into some outcomes likely never anticipated by the developers.
+
+### The Witcher 3: Broken cow tap
+
+The first release of the role-playing game The Witcher 3 had a resource tap issue. The player could walk into a nearby farm at the start of the game, kill all the cows and sell their leather, and sit down to meditate. By the end of the meditation, the cows would come back to life, allowing the player to kill them and sell their leather again. This process was infinitely repeatable, so any sufficiently patient player could amass a significant fortune before leaving the first village in the game. The developers fixed this broken tap in a patch that introduced the Bovine Defese Force Initiative. The BDFI was simply a powerful monster that spawned nearby if the player killed six cows. This fix worked until it didn't, as players returned after getting more powerful to repeatedly kill the monster, amassing even more wealth as unintended by the developers. Another patch made the monster only spawn once.
+
+### Victoria 2: Stuck in time
+
+In Victoria 2, a grand strategy game set mostly in the Victorian era, the player takes control of a nation and leads it through the historical period between 1836 and 1918. The core focus of the game is industrialization, and the necessary resource to achieve it within the game are machine tools. At the start of the game, the only nation owning and capable of producing machine tools is Britain. Under normal conditions, Britain starts exporting machine tools from the start of the game, enabling any nation to acquire them and start their own process of industrialization. However, it is possible for a player (or a particularly mischievous AI) to fully block the export of machine tools, preventing any nation from industrializing well into the 20th century. This breaks the core mechanic of the game and may lead to an underwhelming, albeit unique experience of the period.
+
+### Dwarf Fortress: A drinking problem
+
+
 
 ## Demokrasi
 
