@@ -43,13 +43,16 @@ Games can be categorized into genres based on the type of gameplay. Since gamepl
 
 | !["Game Mechanics and Game Genres"](/DocImg/mechanicsandgenres.png) |
 | :---: |
-| Image 1 - Game Mechanics and Game Genres (Game Mechanics: Advanced Game Design) |
+| Image 1. Game Mechanics and Game Genres (Game Mechanics: Advanced Game Design) |
 
 ## Games of emergence and games of progression
 
+
+[Introduce emergence]
+
 Games that rely mostly on either emergence or progression can be thought of as games of emergence or games of progression, but most games will incorporate both of these categories in their gameplay. Strategy games often feature scripted storylines despite heavily relying on complex tactical maneuvering and economy systems, while most adventure games have at least a rudimentary combat or inventory management system to supplement their mostly narrative-based gameplay.
 
-Visual novels may be taken as an example of pure games of progression, where every possible state of the game has been scripted and accounted for by the developers, while chess, with its practically uncountable unique playthroughs would be the poster child for pure games of emergence.
+Visual novels may be considered as pure games of progression, where every possible state of the game has been scripted and accounted for by the developers, while chess, with its practically uncountable unique playthroughs would be the poster child for pure games of emergence.
 
 | Structure | Emergence | Progression |
 | :---: | :---: | :---: |
@@ -63,7 +66,7 @@ Visual novels may be taken as an example of pure games of progression, where eve
 
 Table 1. Structural differences between mechanics of emergence and mechanics of progression (Game Mechanics: Advanced Game Design)
 
-** Note: Since the publication of Game Mechanics: Advanced Game Design in 2012, long-form emergence focused games 
+** Note: Since the publication of Game Mechanics: Advanced Game Design in 2012, long-form emergence focused games in the grand strategy and city building genres have risen to prominence
 
 
 [more text needed here]
@@ -72,7 +75,7 @@ Table 1. Structural differences between mechanics of emergence and mechanics of 
 
 | !["Dimensions of Emergence"](/DocImg/emergencedimensions.png) |
 | :---: |
-| Image 2 - Dimensions of Emergence (Constructing Emergence) |
+| Image 2. Dimensions of Emergence (Constructing Emergence) |
 
 ## Challenges
 
