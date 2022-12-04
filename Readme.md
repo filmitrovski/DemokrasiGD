@@ -43,7 +43,7 @@ Games can be categorized into genres based on the type of gameplay. Since gamepl
 
 | !["Game Mechanics and Game Genres"](/DocImg/mechanicsandgenres.png) |
 | :---: |
-| Image 1.1 - Game Mechanics and Game Genres |
+| Image 1 - Game Mechanics and Game Genres (Game Mechanics: Advanced Game Design) |
 
 ## Games of emergence and games of progression
 
@@ -51,17 +51,36 @@ Games that rely mostly on either emergence or progression can be thought of as g
 
 Visual novels may be taken as an example of pure games of progression, where every possible state of the game has been scripted and accounted for by the developers, while chess, with its practically uncountable unique playthroughs would be the poster child for pure games of emergence.
 
+| Structure | Emergence | Progression |
+| :---: | :---: | :---: |
+| Number of rules | Low | High |
+| Number of game elements | High | Low-High |
+| Interactions among elements | High | Low |
+| Probability space | Large, wide | Small, deep |
+| Replay value | High | Low |
+| Length of game | **Tends to be short (Civilization is a rare exception) | Tends to be long |
+| Learning curve | Tends to be steep | Tends to be gentle |
+
+Table 1. Structural differences between mechanics of emergence and mechanics of progression (Game Mechanics: Advanced Game Design)
+
+** Note: Since the publication of Game Mechanics: Advanced Game Design in 2012, long-form emergence focused games 
+
+
 [more text needed here]
+[Sellers on verbs and the three axis]
+[Juul on open and closed]
+
+| !["Dimensions of Emergence"](/DocImg/emergencedimensions.png) |
+| :---: |
+| Image 2 - Dimensions of Emergence (Constructing Emergence) |
 
 ## Challenges
 
-Designing games around emergent gameplay comes with its own unique challenges. Unlike with the more straightforward approach of designing levels, scripted challenges, and storylines, when building systems for emergent gameplay it may be difficult to fully predict every interaction between the systems, track the progress made in development, or even evaluate whether the design will work at all. 
+Designing games around emergent gameplay comes with its own unique challenges. Unlike with the more straightforward approach of designing levels, scripted objectives, and storylines, when building systems for emergent gameplay it may be difficult to fully predict every interaction between the systems, track the progress made in development, or even evaluate whether the design will ultimately work at all. 
 
-No concrete and reliable solution for constructing emergence exists as of yet, 
+No concrete and reliable solution for tackling these challenges exists as of yet, so incremental experimentation is currently the best approach when designing games for emergent gameplay.
 
-[Paragraph from Sellers' Constructing Emergence]
-
-The unpredictable nature of complex systems has the potential to completely break an already fully developed and released game, or at least provide advantageous exploits to enterprising players. We'll look into some outcomes likely never anticipated by the developers.
+The unpredictable nature of complex systems has the potential to completely break an already fully developed and released game, or at least provide advantageous exploits to enterprising players. We'll look into some notable outcomes likely never anticipated by the developers.
 
 ### The Witcher 3: Broken cow tap
 
@@ -69,11 +88,11 @@ The first release of the role-playing game The Witcher 3 had a resource tap issu
 
 ### Victoria 2: Stuck in time
 
-In Victoria 2, a grand strategy game set mostly in the Victorian era, the player takes control of a nation and leads it through the historical period between 1836 and 1918. The core focus of the game is industrialization, and the necessary resource to achieve it within the game are machine tools. At the start of the game, the only nation owning and capable of producing machine tools is Britain. Under normal conditions, Britain starts exporting machine tools from the start of the game, enabling any nation to acquire them and start their own process of industrialization. However, it is possible for a player (or a particularly mischievous AI) to fully block the export of machine tools, preventing any nation from industrializing well into the 20th century. This breaks the core mechanic of the game and may lead to an underwhelming, albeit unique experience of the period.
+In Victoria 2, a grand strategy game set mostly in the Victorian era, the player takes control of a nation and leads it through the historical period between 1836 and 1918. The core focus of the game is industrialization, and the necessary resource to achieve it within the game are machine tools. At the start of the game, the only nation owning and capable of producing machine tools is Britain. Under normal conditions, Britain starts exporting machine tools from the start of the game, enabling any nation to acquire them and start their own process of industrialization. However, it is possible for a player (or a particularly mischievous AI) to fully block the export of machine tools from Britain at the start of the game, preventing any nation from industrializing well into the 20th century. This breaks the core mechanic of the game and may lead to an underwhelming, albeit unique experience of the period.
 
 ### Dwarf Fortress: A drinking problem
 
-
+Perhaps the most famous example of a video game designed purely around emergence comes with perhaps the most famous example of an adverse unintended consequence of it. In Dwarf Fortress, a construction and management game of incredible complexity arising from the sheer number of systems being independently simulated, players started encountering large numbers of dead cats covered in their own vomit shortly after an update introducing taverns into the game. This state in the cats could have been caused by a number of reasons, but none of the potentially related systems had been changed in the last update. It could not have been alcohol poisoning in the taverns either, since cats were explicitly programmed to not like alcohol. An investigation by the developer aided by the saved games provided by the players revealed that what occurred was a chain reaction starting from dwarves dropping their drinks on the ground when being called to duty, cats walking around the tavern covering their paws in alcohol, a miscalculation of how much alcohol their paws pick up from the ground, and cats cleaning their paws by licking them, ultimately ending in alcohol poisoning.
 
 ## Demokrasi
 
@@ -88,3 +107,4 @@ In Victoria 2, a grand strategy game set mostly in the Victorian era, the player
 - Michael Sellers. "Advanced Game Deisgn: A Systems Approach"
 - Michael Sellers. "Constructing Emergence". https://www.projecthorseshoe.com/reports/featured/ph18r7.htm
 - Game Maker's Toolkit. How Video Game Economies are Designed. https://www.youtube.com/watch?v=Zrf1cou_yVo
+- Eurogamer. Why Dwarf Fortress started killing cats. https://www.youtube.com/watch?v=6yWf6BHqiWM
