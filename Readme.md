@@ -39,7 +39,7 @@ Tactical maneuvering mechanics deal with the placement of units within the game 
 
 Social interaction mechanics involve the governing of interactions between players within the game. These may include mechanics of forming and breaking alliances, trading between players, governing the play-acting in role-playing games, and even such elements as giving gifts and inviting friends to join.
 
-Games can be categorized into genres based on the type of gameplay. Since gameplay is generated from the mechanics the game implements, it follows that the genre will have a significant impact on what type of mechanics are implemented in the game and to what extent. Image 1.1 shows some common game genres and how they relate to the types of mechanics they implement. The thickness of the outlines indicates relative importance of the type of mechanics to games in that genre. Items outlined with a thick black line can be considered to be a core mechanic.
+Games can be categorized into genres based on the type of gameplay. Since gameplay is generated from the mechanics the game implements, it follows that the genre chosen for a given game will have a significant impact on what type of mechanics will need to be implemented and to what extent. Image 1.1 shows some common game genres and how they relate to the types of mechanics they implement. The thickness of the outlines indicates relative importance of the type of mechanics to games in that genre. Items outlined with a thick black line can be considered to be a core mechanic.
 
 | !["Game Mechanics and Game Genres"](/DocImg/mechanicsandgenres.png) |
 | :---: |
@@ -47,12 +47,13 @@ Games can be categorized into genres based on the type of gameplay. Since gamepl
 
 ## Games of emergence and games of progression
 
-
-[Introduce emergence]
+Of the five types of game mechanics introduced in the previous chapter, mechanics of progression are used to create games of progression. The other four types of mechanics correspond to the category of emergence. The term "Emergence" is used to describe the behavior of a system that cannot be directly derived from its constituent parts, i.e. a system "larger than the sum of its parts". In games, the distinction between games of emergence and games of progression was first introduced by Jesper Juul in his essay "The Open and the Closed: Games of Emergence and Games of Progression" (2002).
 
 Games that rely mostly on either emergence or progression can be thought of as games of emergence or games of progression, but most games will incorporate both of these categories in their gameplay. Strategy games often feature scripted storylines despite heavily relying on complex tactical maneuvering and economy systems, while most adventure games have at least a rudimentary combat or inventory management system to supplement their mostly narrative-based gameplay.
 
 Visual novels may be considered as pure games of progression, where every possible state of the game has been scripted and accounted for by the developers, while chess, with its practically uncountable unique playthroughs would be the poster child for pure games of emergence.
+
+[probability space]
 
 | Structure | Emergence | Progression |
 | :---: | :---: | :---: |
@@ -66,7 +67,7 @@ Visual novels may be considered as pure games of progression, where every possib
 
 Table 1. Structural differences between mechanics of emergence and mechanics of progression (Game Mechanics: Advanced Game Design)
 
-** Note: Since the publication of Game Mechanics: Advanced Game Design in 2012, long-form emergence focused games in the grand strategy and city building genres have risen to prominence
+** Note: Since the publication of Game Mechanics: Advanced Game Design in 2012, long-form emergence focused games in the grand strategy and city building genres have risen in popularity, rendering this assessment no longer valid
 
 
 [more text needed here]
@@ -95,9 +96,19 @@ In Victoria 2, a grand strategy game set mostly in the Victorian era, the player
 
 ### Dwarf Fortress: A drinking problem
 
-Perhaps the most famous example of a video game designed purely around emergence comes with perhaps the most famous example of an adverse unintended consequence of it. In Dwarf Fortress, a construction and management game of incredible complexity arising from the sheer number of systems being independently simulated, players started encountering large numbers of dead cats covered in their own vomit shortly after an update introducing taverns into the game. This state in the cats could have been caused by a number of reasons, but none of the potentially related systems had been changed in the last update. It could not have been alcohol poisoning in the taverns either, since cats were explicitly programmed to not like alcohol. An investigation by the developer aided by the saved games provided by the players revealed that what occurred was a chain reaction starting from dwarves dropping their drinks on the ground when being called to duty, cats walking around the tavern covering their paws in alcohol, a miscalculation of how much alcohol their paws pick up from the ground, and cats cleaning their paws by licking them, ultimately ending in alcohol poisoning.
+Perhaps the most famous example of a video game designed purely around emergence comes with perhaps the most famous example of an adverse unintended consequence of it. In Dwarf Fortress, a construction and management game of incredible complexity arising from the sheer number of systems being independently simulated, players started encountering large numbers of dead cats covered in their own vomit shortly after an update introducing taverns into the game. It was assumed that this state in the cats could have been caused by a number of reasons, but none of the potentially related systems had been changed in the last update. Alcohol poisoning in the taverns was not a potential suspect either, since cats were explicitly programmed to not like alcohol. An investigation by the developer aided by the saved games provided by the players revealed that what occurred was a chain reaction starting from dwarves dropping their drinks on the ground when being called to duty, cats walking around the tavern covering their paws in alcohol, a miscalculation of how much alcohol their paws pick up from the ground, and cats cleaning their paws by licking them, ultimately ending in alcohol poisoning. A complex interaction between many small, self-contained systems had resulted in practically unforeseeable behavior.
 
 ## Demokrasi
+
+Demokrasi is the working title for a prototype of a political management and strategy game developed as part of this thesis for the purpose of demonstrating the basic principles behind emergence-driven game design. Aziz al-Batteri
+
+subject to change
+
+---
+
+
+---
+subject to change
 
 ## Conclusion
 
